@@ -40,7 +40,7 @@ console.log(validateInteger(5.6));
 En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).
 */
 
-function nSuma(x,y){
+function nSuma2(x,y){
     if(typeof x != 'number' || typeof y != 'number'){
         alert('The values must be numbers');
         return NaN;
@@ -56,7 +56,7 @@ function nSuma(x,y){
     else return x + y;
 }
 
-console.log(nSuma(50,6.6));
+console.log(nSuma2(50,6.6));
 
 /*******************************
 *Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la 
@@ -69,7 +69,7 @@ function isNotANumber(num){
     
 }
 
-function nSuma(x,y){
+function nSuma3(x,y){
     if(isNotANumber(x) || isNotANumber(y)){
         alert('The values must be numbers');
         return NaN;
@@ -77,4 +77,4 @@ function nSuma(x,y){
     return x + y;
 }
 
-console.log(nSuma('50',6));
+console.log(nSuma3('50',6));
