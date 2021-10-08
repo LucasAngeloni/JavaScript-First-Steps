@@ -3,11 +3,11 @@
 en una variable, mostrando el valor de dicha variable en la consola del navegador.
 */
 
-function suma(x, y){
+function sum(x, y){
     return x + y;
 }
 
-let s = suma(50,7);
+let s = sum(50,7);
 console.log(s);
 
 /*******************************
