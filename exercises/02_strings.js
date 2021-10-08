@@ -3,7 +3,7 @@
  */
 
 let string = 'Soy todo corazón';
-console.log('Texto en mayúscula: ' + string.toUpperCase())
+console.log('Texto en mayuscula: ' + string.toUpperCase())
 
 /*******************************
  * Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando 
@@ -61,7 +61,7 @@ palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, subs
 
 let cadena5, nuevaCadena, posEspacioEnBlanco;
 
-cadena5 = 'microoNdas eléctriCo';
+cadena5 = 'microoNdas electriCo';
 posEspacioEnBlanco = cadena5.indexOf(' ');
 
 let palabra1, palabra2;
