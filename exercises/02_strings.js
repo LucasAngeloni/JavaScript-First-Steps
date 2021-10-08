@@ -2,7 +2,7 @@
  * Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula (utilizar toUpperCase).
  */
 
-let string = 'Soy todo corazón';
+let string = 'Soy todo corazon';
 console.log('Texto en mayuscula: ' + string.toUpperCase())
 
 /*******************************
