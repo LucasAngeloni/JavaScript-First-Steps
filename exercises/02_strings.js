@@ -3,7 +3,7 @@
  */
 
 let string = 'Soy todo corazon';
-console.log('Texto en mayuscula: ' + string.toUpperCase())
+console.log('Uppercase text: ' + string.toUpperCase())
 
 /*******************************
  * Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres guardando 
@@ -15,7 +15,7 @@ let cadena, subcadena;
 cadena = 'PlayStation';
 subcadena = cadena.substring(0,5);
 
-console.log(subcadena);
+console.log('First 5 characters: ' + subcadena);
 
 /*******************************
 * Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando 
@@ -27,7 +27,7 @@ let cadena2, subcadena2;
 cadena2 = 'PlayStation';
 subcadena2 = cadena2.substring(cadena2.length-3);
  
-console.log(subcadena2);
+console.log('Last 3 characters: ' + subcadena2);
 
 /*******************************
 *Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y 
@@ -39,7 +39,7 @@ let cadena3, subcadena3;
 cadena3 = 'hola Mundo!';
 subcadena3 = cadena3.substring(0,1).toUpperCase() + cadena3.substring(1).toLowerCase();
 
-console.log(subcadena3);
+console.log('Uppercase first letter: ' + subcadena3);
 
 /*******************************
  *Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del 
@@ -51,7 +51,7 @@ let cadena4, primerEspacioBlanco;
 cadena4 = 'Hola Mundo';
 primerEspacioBlanco = cadena4.indexOf(' ');
 
-console.log('El primer espacio en blanco se encuentra en: ' + primerEspacioBlanco);
+console.log('The first whitespace is in the index: ' + primerEspacioBlanco);
 
 /*******************************
 *Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). 

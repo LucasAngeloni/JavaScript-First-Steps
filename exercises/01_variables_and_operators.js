@@ -20,7 +20,7 @@ s1 = 'Hola ';
 s2 = 'Universo';
 
 concat = s1 + s2;
-console.log('Cadenas concatenadas: ' + concat);
+console.log('Strings concataned: ' + concat);
 
 /*******************************
  * Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado 
@@ -33,4 +33,4 @@ s3 = 'Harry';
 s4 = 'Potter';
 
 largo = s3.length + s4.length;
-console.log('La suma del largo de las cadenas es: '+largo);
+console.log("Sum of string length: "+largo);

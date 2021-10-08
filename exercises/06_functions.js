@@ -8,7 +8,7 @@ function sum(x, y){
 }
 
 let s = sum(50,7);
-console.log(s);
+console.log("Sum is: " + s);
 
 /*******************************
 *A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, 
@@ -32,8 +32,8 @@ function validateInteger(num){
     if(r === num) return true;
     else return false;
 }
-
-console.log(validateInteger(5.6));
+let n = 5.6;
+console.log('¿Is '+ n +' an integer?\n' + validateInteger(5.6));
 
 /*******************************
 *A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. 
@@ -66,7 +66,6 @@ función suma probando que todo siga funcionando igual.
 function isNotANumber(num){
     if(typeof num != 'number') return true;
     else return false;
-    
 }
 
 function nSuma3(x,y){

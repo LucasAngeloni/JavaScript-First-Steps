@@ -43,4 +43,4 @@ let repeticiones = [];
 for(let i=0; i<10; i++)
     repeticiones.push(i);
 
-console.log(repeticiones);
+console.log('Ten repetitions: ' + repeticiones);
